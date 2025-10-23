@@ -29,7 +29,7 @@ A modern, feature-rich todo list application built with Angular 19 and styled wi
 
 1. Clone the repository
 ```bash
-git clone [<your-repo-url>](https://github.com/PrathameshCoder/daily-accountability.git)
+git clone [repo-url](https://github.com/PrathameshCoder/daily-accountability.git)
 cd pg-todo-list
 ```
 
