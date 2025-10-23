@@ -1,0 +1,9 @@
+<div class="items">
+<h3 [class.strike]="!todo.active"> {{todo.title}} </h3>
+<p [class.strike]="!todo.active"> {{todo.desc}} </p>
+<div class="checkbox">
+    <input type="checkbox" [checked]="!todo.active" (change)="onToggle()" id="check1">
+    <label class="check-label"> Completed </label>
+</div>
+<button class="btn" (click)="onClick(todo)">Delete</button>
+</div>
