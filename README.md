@@ -109,9 +109,9 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👤 Author
 
 **Your Name**
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-profile)
-- GitHub: [@yourusername](https://github.com/yourusername)
+- Portfolio: [prathameshgongle.vercel.app](https://prathameshgongle.vercel.app)
+- LinkedIn: [linkedin](https://linkedin.com/in/prathamesh-gongle)
+- GitHub: [@PrathameshCoder](https://github.com/PrathameshCoder)
 
 ## 🙏 Acknowledgments
 
