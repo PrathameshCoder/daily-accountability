@@ -1,59 +1,124 @@
-# TodoList
+# 📝 Daily Accountability - Angular Todo App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.18.
+A modern, feature-rich todo list application built with Angular 19 and styled with a sleek dark theme. Perfect for daily task management and accountability tracking.
 
-## Development server
+![Angular](https://img.shields.io/badge/Angular-19-red?style=flat-square&logo=angular)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-To start a local development server, run:
+## ✨ Features
 
+- ✅ **Add Tasks** - Create tasks with title and description
+- ☑️ **Mark Complete** - Toggle tasks as done/undone with visual feedback
+- 🗑️ **Delete Tasks** - Remove completed or unwanted tasks
+- 💾 **Persistent Storage** - All tasks saved to localStorage (survives page reload)
+- 🧭 **Multi-page Navigation** - Home and About pages with routing
+- 🎨 **Modern Dark Theme** - Eye-friendly dark mode with coral accent colors
+- ✋ **Form Validation** - Prevents empty task submissions
+- 📱 **Responsive Design** - Works on desktop and mobile devices
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+- Angular CLI (`npm install -g @angular/cli`)
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone <your-repo-url>
+cd pg-todo-list
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Run the development server
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+4. Open your browser and navigate to `http://localhost:4200`
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+## 🏗️ Project Structure
+```
+src/
+├── app/
+│   ├── components/
+│   │   ├── add-todo/          # Form to add new tasks
+│   │   ├── todos/             # Main todo list container
+│   │   ├── todo-items/        # Individual todo item component
+│   │   └── about/             # About page
+│   ├── models/
+│   │   └── Todo.ts            # Todo interface/model
+│   ├── app.component.*        # Root component with navbar
+│   ├── app.routes.ts          # Routing configuration
+│   └── app.config.ts          # App configuration
+└── styles.css                 # Global styles
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🎨 Color Scheme
 
-```bash
-ng generate --help
-```
+- **Navbar:** `#ff6164` (Coral Red)
+- **Background:** `#1a1a1a` (Soft Black)
+- **Cards:** `#242424` (Dark Gray)
+- **Text Primary:** `#e0e0e0` (Light Gray)
+- **Text Secondary:** `#a0a0a0` (Medium Gray)
+- **Borders:** `#333333` (Dark Gray)
 
-## Building
+## 🛠️ Built With
 
-To build the project run:
+- **[Angular 19](https://angular.io/)** - Frontend framework
+- **[TypeScript](https://www.typescriptlang.org/)** - Programming language
+- **Standalone Components** - Modern Angular architecture
+- **Reactive Forms** - Form handling with `FormsModule`
+- **Angular Router** - Client-side routing
+- **LocalStorage API** - Data persistence
 
-```bash
-ng build
-```
+## 📚 Key Learnings
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- Standalone components architecture (no `NgModule`)
+- Component communication with `@Input()` and `@Output()`
+- Event emitters and parent-child data flow
+- Angular routing with `RouterOutlet` and `RouterLink`
+- Form validation and two-way data binding with `[(ngModel)]`
+- LocalStorage integration for data persistence
+- Modern dark theme design principles
 
-## Running unit tests
+## 🔜 Future Enhancements
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+- [ ] Edit task inline
+- [ ] Filter tasks (All / Active / Completed)
+- [ ] "Clear completed" action
+- [ ] Sort by date (newest/oldest)
+- [ ] Empty state UI
+- [ ] Light/dark theme toggle
+- [ ] Drag-and-drop reordering
+- [ ] Task categories/tags
+- [ ] Due dates and reminders
 
-```bash
-ng test
-```
+## 📄 License
 
-## Running end-to-end tests
+This project is open source and available under the [MIT License](LICENSE).
 
-For end-to-end (e2e) testing, run:
+## 👤 Author
 
-```bash
-ng e2e
-```
+**Your Name**
+- Portfolio: [yourportfolio.com](https://yourportfolio.com)
+- LinkedIn: [your-linkedin](https://linkedin.com/in/your-profile)
+- GitHub: [@yourusername](https://github.com/yourusername)
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## 🙏 Acknowledgments
 
-## Additional Resources
+- Built as a portfolio project to demonstrate Angular skills
+- Inspired by modern task management applications
+- Thanks to the Angular community for excellent documentation
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+⭐ **Star this repo if you find it helpful!**
